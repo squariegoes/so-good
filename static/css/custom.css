@@ -1,11 +1,4 @@
-
 /* for setting max container width */
-/*@media (min-width: 961px) {
-    .container{
-        width:960px;
-    }
-}*/
-
 @media (min-width: 1200px) {
   .container {
     width: 970px;
@@ -58,13 +51,17 @@ div.transbox li
 
 div.nontransbox
 {
-    background-color: #E8E8E8;
+    padding-left:10px;
+    padding-right:10px;
     padding-bottom:20px;
+    background-color: #E8E8E8;
     font-family: Arial;
+
 }
 div.nontransbox h1
 {
     padding-top:10px;
+    margin-top:0px;
     border-bottom: 1px solid #A0A0A0 ;
     font-weight: bold;
     color: #404040 ;
