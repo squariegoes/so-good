@@ -91,6 +91,103 @@ div.nontransbox address
 
 
 
+div.menuSectionContainer
+{
+    margin-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 7px;
+    background: #f1f1f1;
+}
+/*p.menuHdr
+{
+    padding-bottom:0px;margin-bottom:0px;color:#F36700;font-weight:800;    #FFA500
+}*/
+div.menuHdr
+{
+    /*margin-bottom: 5px;*/
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #FFA500;
+    font-family: Verdana;
+    font-size: 11pt;
+    color: black;
+    font-weight: 800;
+    border: 1px solid #ffb732;
+
+    letter-spacing: 1px;
+}
+
+div.menuItemContainer
+{
+    background:inherit;
+    margin-bottom:3px;
+    padding-top:5px;
+}
+div.menuItemLeft
+{
+    float:left;
+    background:inherit;
+}
+div.menuItemCenter
+{
+    background-image:url(/static/images/pixels/menuItemUnderline.png);
+    background-repeat:repeat-x;
+    background-position:50% 100%;
+}
+div.menuItemRight
+{
+    float:right;
+    background:inherit;
+}
+div.menuSubItemLeft
+{
+    padding-left:30px;
+}
+div.menuItemNum
+{
+    display:inline;
+    margin-right:6px;
+    font-size:inherit;
+    /*font-weight:800;*/
+    color:#F36700;
+}
+div.menuDescr
+{
+    font-style:italic;
+    font-size:9pt;
+    padding-left:30px;
+}
+div.menuItemVegitarian
+{
+    display:inline;
+    padding-left:2px;
+    font-size:inherit;
+    font-weight:800;
+    color:green;
+}
+div.menuItemChilli
+{
+    display:inline;
+    margin-right:5px;
+    background:inherit;
+}
+
+div.menuImgContainer
+{
+    width: 280px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div.menuImgDescr
+{
+    padding-top: 2px;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #545454;
+}
+
 
 
 body{
