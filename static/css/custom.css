@@ -10,7 +10,9 @@ body{
   background-image: url('/static/images/background/dark-wood.jpg');
   padding-top: 20px;
   padding-bottom: 20px;
-
+}
+.minWidthBody
+{
    min-width: 500px; /* suppose you want minimun width of 1000px */
    width: auto !important;  /* Firefox will set width as auto */
    width:1000px;             /* As IE ignores !important it will set width as 1000px; */

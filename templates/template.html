@@ -77,7 +77,7 @@
 			<!--});-->
 		<!--</script>-->
     </head>
-    <body>
+    <body {% if request.path == '/menu' %}class="minWidthBody"{% endif %}>
         <div class="container" style="margin-bottom:0px">
 
             <div class="row" style="margin-bottom:15px">
