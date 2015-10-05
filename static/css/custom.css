@@ -99,6 +99,20 @@ div.menuSectionContainer
     padding-bottom: 7px;
     background: #f1f1f1;
 }
+div.menuSectionContainerVeg
+{
+    background: #ccffcc;
+}
+div.menuSectionDescr
+{
+    padding-top: 5px;
+    padding-bottom: 1px;
+    font-style: italic;
+    font-size: 10pt;
+
+}
+
+
 /*p.menuHdr
 {
     padding-bottom:0px;margin-bottom:0px;color:#F36700;font-weight:800;    #FFA500
@@ -115,9 +129,15 @@ div.menuHdr
     color: black;
     font-weight: 800;
     border: 1px solid #ffb732;
-
     letter-spacing: 1px;
 }
+div.menuHdrVeg
+{
+    background: #00cc00;
+    border: 1px solid #00e600;
+}
+
+
 
 div.menuItemContainer
 {
@@ -125,10 +145,35 @@ div.menuItemContainer
     margin-bottom:3px;
     padding-top:5px;
 }
+
+div.menuItemNum
+{
+    display:inline;
+    margin-right:6px;
+    font-size:inherit;
+    /*font-weight:800;*/
+    color:#F36700;
+}
+div.menuItemNumVeg
+{
+    color: green;
+}
+
+
 div.menuItemLeft
 {
     float:left;
     background:inherit;
+}
+div.menuSubItemLeft
+{
+    padding-left:30px;
+}
+div.menuItemSmallItalicsInline
+{
+    display:inline;
+    font-style:italic;
+    font-size:9pt;
 }
 div.menuItemCenter
 {
@@ -140,18 +185,6 @@ div.menuItemRight
 {
     float:right;
     background:inherit;
-}
-div.menuSubItemLeft
-{
-    padding-left:30px;
-}
-div.menuItemNum
-{
-    display:inline;
-    margin-right:6px;
-    font-size:inherit;
-    /*font-weight:800;*/
-    color:#F36700;
 }
 div.menuDescr
 {
@@ -167,10 +200,31 @@ div.menuItemVegitarian
     font-weight:800;
     color:green;
 }
+div.menuItemNuts
+{
+    display:inline;
+    padding-left:2px;
+    font-size:inherit;
+    font-weight:800;
+    color:#F36700;
+}
+div.menuItemTextOr
+{
+    display:inline;
+    padding-left:2px;
+    font-size:inherit;
+    color:#F36700;
+}
+
 div.menuItemChilli
 {
     display:inline;
     margin-right:5px;
+    background:inherit;
+}
+div.menuItemChilliMulti
+{
+    display:inline;
     background:inherit;
 }
 
@@ -302,3 +356,53 @@ p{
 
 /*Fixes carousel banner left alignment issue*/
 .carousel-inner > .item > img { margin: 0 auto; }
+
+
+div.linksHdr
+{
+    padding-left: 2px;
+    padding-top: 3px;
+    font-family: Verdana;
+    font-size: 11pt;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+div.linksContainer
+{
+    margin-bottom: 15px;
+    color: #e69500;
+}
+div.linksContainer a
+{
+    color: inherit;
+}
+div.linksContainer span
+{
+    padding-left: 4px;
+    padding-right: 2px;
+    color: inherit;
+}
+
+
+
+div.foodTypeHdr
+{
+    margin-top: 25px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    font-size: 13pt;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+hr.menu {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 1px;
+    /*background: #FFA500;*/
+    background: #CCC;
+    font-size: 0;
+    border: 0;
+}
