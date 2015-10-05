@@ -6,6 +6,18 @@
 }
 
 
+body{
+  background-image: url('/static/images/background/dark-wood.jpg');
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+   min-width: 380px; /* suppose you want minimun width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:1000px;             /* As IE ignores !important it will set width as 1000px; */
+}
+
+
+
 
 div.transbox
 {
@@ -244,17 +256,7 @@ div.menuImgDescr
 
 
 
-body{
-	/*background-color: #272B30;*/
-  background-image: url('/static/images/background/dark-wood.jpg');
-  /*padding-top:0px;*/
-}
 
-
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 .navbar {
   margin-bottom: 20px;
