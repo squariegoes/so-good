@@ -149,7 +149,7 @@ div.menuItemContainer
 div.menuItemNum
 {
     display:inline;
-    margin-right:6px;
+    margin-right:0px;
     font-size:inherit;
     /*font-weight:800;*/
     color:#F36700;
