@@ -152,6 +152,31 @@ div.menuHdrVeg
 }
 
 
+div.menuSetMenuSectionHdrPrice
+{
+    padding-left: 0px;
+    font-size: 11pt;
+    color:#000000;
+    font-weight: 800;
+}
+div.menuSetMenuSectionSmlHdr
+{
+    padding-left: 0px;
+    font-size: 10pt;
+    color:#000000;
+    font-weight: 800;
+}
+
+
+div.menuSetMenuSectionHdr
+{
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 12pt;
+    color:#F36700;
+    font-weight: 800;
+}
+
 
 div.menuItemContainer
 {
@@ -174,6 +199,10 @@ div.menuItemNumVeg
 }
 
 
+div.menuItemSingle
+{
+    background:inherit;
+}
 div.menuItemLeft
 {
     float:left;
@@ -392,7 +421,7 @@ div.linksContainer span
 
 div.foodTypeHdr
 {
-    margin-top: 25px;
+    margin-top: 28px;
     padding-left: 2px;
     padding-bottom: 0px;
     font-family: Arial;
